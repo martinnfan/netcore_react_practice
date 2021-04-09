@@ -1,0 +1,16 @@
+C:\Users\Martin\OneDrive\Desktop\.net\bin\Debug\net5.0\.net.exe
+C:\Users\Martin\OneDrive\Desktop\.net\bin\Debug\net5.0\.net.deps.json
+C:\Users\Martin\OneDrive\Desktop\.net\bin\Debug\net5.0\.net.runtimeconfig.json
+C:\Users\Martin\OneDrive\Desktop\.net\bin\Debug\net5.0\.net.runtimeconfig.dev.json
+C:\Users\Martin\OneDrive\Desktop\.net\bin\Debug\net5.0\.net.dll
+C:\Users\Martin\OneDrive\Desktop\.net\bin\Debug\net5.0\ref\.net.dll
+C:\Users\Martin\OneDrive\Desktop\.net\bin\Debug\net5.0\.net.pdb
+C:\Users\Martin\OneDrive\Desktop\.net\obj\Debug\net5.0\.net.csprojAssemblyReference.cache
+C:\Users\Martin\OneDrive\Desktop\.net\obj\Debug\net5.0\.net.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Martin\OneDrive\Desktop\.net\obj\Debug\net5.0\.net.AssemblyInfoInputs.cache
+C:\Users\Martin\OneDrive\Desktop\.net\obj\Debug\net5.0\.net.AssemblyInfo.cs
+C:\Users\Martin\OneDrive\Desktop\.net\obj\Debug\net5.0\.net.csproj.CoreCompileInputs.cache
+C:\Users\Martin\OneDrive\Desktop\.net\obj\Debug\net5.0\.net.dll
+C:\Users\Martin\OneDrive\Desktop\.net\obj\Debug\net5.0\ref\.net.dll
+C:\Users\Martin\OneDrive\Desktop\.net\obj\Debug\net5.0\.net.pdb
+C:\Users\Martin\OneDrive\Desktop\.net\obj\Debug\net5.0\.net.genruntimeconfig.cache
