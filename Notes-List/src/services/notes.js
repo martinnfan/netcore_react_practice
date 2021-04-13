@@ -1,4 +1,9 @@
 import { ActionCreators } from '../redux/notesReducer';
+import * as axios from 'axios';
+
+const axiosInstance = axios.create({
+    baseURL: 'https://localhost:44323/notes'
+})
 
 export const GetNotes = async (dispatch) => {
     try {
@@ -8,8 +13,9 @@ export const GetNotes = async (dispatch) => {
             { value: 'Cannot be watered', id: 2 },
             { value: 'Needs to be watered', id: 3 },
         ];
+        const {data} = await axiosInstance.get();
 
-        dispatch(ActionCreators.setNotes(response));
+        dispatch(ActionCreators.setNotes(data));
     } catch {
         console.log('Error!');
     }
@@ -18,6 +24,7 @@ export const GetNotes = async (dispatch) => {
 export const DeleteNote = async (dispatch, note) => {
     try {
         // api call
+        const { data } = await axiosInstance.delete(`/${note.id}`);
         dispatch(ActionCreators.deleteNote(note));
     } catch {
         console.log('Error!');
@@ -27,8 +34,9 @@ export const DeleteNote = async (dispatch, note) => {
 export const NewNote = async (dispatch, note) => {
     try {
         // api call
-        const response = { value: note, id: 1 };
-        dispatch(ActionCreators.newNote(response));
+        const { data } = await axiosInstance.post('', note)
+        //const response = { value: note, id: 1 };
+        dispatch(ActionCreators.newNote(data));
     } catch {
         console.log('Error!');
     }
@@ -37,8 +45,9 @@ export const NewNote = async (dispatch, note) => {
 export const EditNote = async (dispatch, note) => {
     try {
         // api call
-        const response = { value: note, id: 1 };
-        dispatch(ActionCreators.editNote(response));
+        await axiosInstance.put('', note);
+        //const response = { value: note, id: 1 };
+        dispatch(ActionCreators.editNote(note));
     } catch {
         console.log('Error!');
     }
