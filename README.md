@@ -1,5 +1,3 @@
-# A .net Core using C# on react.js and redux for management
-
 # Practicing using ASP.Net core, React, C#, and Postman
 
 Created a notes list that have the functionalities of:
